@@ -1,3 +1,4 @@
+mod batch_operations;
 mod cursor;
 mod delete;
 mod execute;
@@ -7,6 +8,7 @@ mod query;
 mod select;
 mod update;
 
+pub use batch_operations::*;
 pub use cursor::*;
 pub use delete::*;
 pub use execute::*;
